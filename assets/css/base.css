@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700&display=swap');
+@import 'syntax.css';
 
 :root {
 	--primary-color: #444;
