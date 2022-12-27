@@ -1,13 +1,13 @@
 <h2 class="title">{{ site.title }}</h2>
 <nav>
-    <a href="{{ site.url }}">Home</a> 
-    <a href="{{ site.url }}{{ site.Blog }}">Blog</a>
+    <a class="navlink" href="{{ site.url }}">홈</a> 
+    <a class="navlink" href="{{ site.url }}{{ site.TIL }}">배움</a>
 
     {% for link in site.links %}
-        <a href="{{ site.url }}{{ link[1] }}">{{ link[0] }}</a>
+        <a class="navlink" href="{{ site.url }}{{ link[1] }}">{{ link[0] }}</a>
     {% endfor %}
     
-    {% for link in site.special_links %}
-            <a href="{{ link[1] }}">[{{ link[0] }}]</a>
+    {% for link in site.external_links %}
+            <a class="navlink" href="{{ link[1] }}">[{{ link[0] }}]</a>
     {% endfor %}
 </nav>

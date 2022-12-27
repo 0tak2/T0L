@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
 body {
-    font-family: Verdana, sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     margin: auto;
     padding: 20px;
     max-width: 720px;
@@ -86,6 +88,14 @@ input:not([type="submit"]) {
 .nav-image {
     height: 3.14rem;
     border-radius: 12.5%;
+}
+
+a.noblue {
+    color: #444;
+}
+
+a.navlink {
+    text-decoration-line: none;
 }
 
 textarea:required,
@@ -329,12 +339,6 @@ small a {
 hr {
     border: 1.61803px solid;
 }
-
-body:hover {
-    border-image: ;
-    border-width: 0;
-}
-
 
 small a {
     padding-right: 0.61803rem;

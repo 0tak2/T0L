@@ -1,4 +1,7 @@
-# 배움장 (Today 0tak Learned)
+---
+layout: default
+title: "홈"
+---
 
 배움장... 어감이 좋지 않나요?  
 Today I Learned를 한국어로 옮기다가 고안한 표현입니다.

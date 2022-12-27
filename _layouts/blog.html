@@ -16,8 +16,8 @@ layout: compress
         <li>
             <span>
                 <i>
-                    <time datetime="2022-01-28" pubdate="">
-                        {{ post.date | date: "%b %-d, %Y" }}
+                    <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                        {{ post.date | date: "%Y-%m-%d" }}
                     </time>
                 </i>
             </span>
