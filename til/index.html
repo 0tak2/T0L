@@ -43,7 +43,11 @@ description: 오늘의 배운 것
     <!-- Pagination links -->
     <div class="pagination">
         {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="nav">&lt; 이전</a>
+            {% if paginator.previous_page == 1 %}
+            <a href="../" class="nav">&lt; 이전</a>
+            {% else %}
+            <a href="../page{{ paginator.previous_page }}" class="nav">&lt; 이전</a>
+            {% endif %}
         {% else %}
         <span class="previous">&lt; 이전</span>
         {% endif %}
@@ -53,7 +57,11 @@ description: 오늘의 배운 것
         <span class="separation right"></span>
 
         {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="nav">다음 &gt;</a>
+            {% if paginator.page == 1 %}
+            <a href="./page{{ paginator.next_page }}" class="nav">다음 &gt;</a>
+            {% else %}
+            <a href="../page{{ paginator.next_page }}" class="nav">다음 &gt;</a>
+            {% endif %}
         {% else %}
         <span class="next ">다음 &gt;</span>
         {% endif %}
