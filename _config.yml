@@ -3,8 +3,8 @@
 
 title: 배움장 - 0tak
 description: Today 0tak Learned
-# baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
-url: "https://0tak2.github.io/T0L" # the base hostname & protocol for your site
+baseurl: "/T0L" # the subpath of your site, e.g. /blog/
+url: "https://0tak2.github.io/" # the base hostname & protocol for your site
 # host: 0.0.0.0
 
 
