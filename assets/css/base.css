@@ -303,6 +303,22 @@ ul.discover-posts li small a {
     color: #777 !important;
 }
 
+div.pagination {
+    margin-top: 10px;
+}
+
+span.separation.left {
+    margin-left: 16px;
+}
+
+span.separation.right {
+    margin-right: 16px;
+}
+
+div.greeting {
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
 
 @media (prefers-color-scheme: dark) {
     body {

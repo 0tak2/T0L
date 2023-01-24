@@ -13,11 +13,15 @@ url: "https://0tak2.github.io/T0L" # the base hostname & protocol for your site
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-paginate
 
 whitelist:
   - jekyll-redirect-from
 
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 compress_html:
   clippings: all
@@ -49,13 +53,17 @@ permalink: /blog/:slug
 timezone: Asia/Seoul
 future: false
 
+# 페이지네이션
+paginate: 8
+paginate_path: "/til/page:num/"
+
 exclude:
 - README.md
 - LICENSE.md
 
 exclude: [vendor]
 
-TIL: /til
+TIL: /til/
 
 # Add general links to site pages here
 links:
