@@ -354,11 +354,11 @@ div.greeting {
     }
 
     .highlight, .code {
-        background-color: #444;
+        background-color: #222;
     }
 
     code {
-        background-color: #444;
+        background-color: #222;
     }
 
     pre code {
