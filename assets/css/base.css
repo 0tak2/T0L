@@ -322,7 +322,7 @@ div.greeting {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #01242e;
+        background-color: #121212;
         color: #ddd;
     }
 
@@ -337,8 +337,20 @@ div.greeting {
         color: #eee;
     }
 
+    h2 .title {
+        color: #eee !important;
+    }
+
     a {
-        color: #8cc2dd;
+        color: #cfecfe;
+    }
+
+    a:active {
+        color: #b2ccdc;
+    }
+
+    a:visited.navlink {
+      color: #b2ccdc !important;
     }
 
     code {
