@@ -13,7 +13,9 @@ layout: compress
     <i>{{ page.date | date: "%Y-%m-%d" }}</i>
     <h4 class="subtitle">{{ page.subtitle }}</h4>
 
-    {{ page.content }}
+    <article class="post-contents">
+      {{ page.content }}
+    </article>
 
     <div class="utterances">
         <script src="https://utteranc.es/client.js"
