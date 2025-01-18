@@ -350,11 +350,15 @@ div.greeting {
     }
 
     a:visited {
-      color: #b2ccdc !important;
+      color: #889ba7 !important;
+    }
+
+    .highlight, .code {
+        background-color: #444;
     }
 
     code {
-        background-color: #888;
+        background-color: #444;
     }
 
     pre code {
