@@ -20,7 +20,7 @@ tags:
     - https://onemoonstudio.tistory.com/entry/iOS-Text-Size-구하기
 
 ## GCD
-- 오늘 이사가 앨런 강의 중 동시성 프로그래밍을 아주 열심히 공부하던데... 나도 겸사겸사 GCD와 Swift Concurrency를 같이 찾아봤다.
+- 오늘 이사가 동시성 프로그래밍을 아주 열심히 공부하던데... 나도 겸사겸사 GCD와 Swift Concurrency를 같이 찾아봤다.
 - GCD
     - libdispatch의 구현체
     - 작업을 태스크 단위로 큐에서 처리
